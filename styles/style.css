@@ -6,3 +6,43 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    margin: 0;
+}
+.nav-bar{
+    position:fixed;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+.spotify-logo{
+    width: 200px;
+    height: 60px;
+    margin: 10px auto 10px 30px;
+}
+
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    
+}
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+    
+}
+.container{
+    
+}
+.hero-img{
+    width: 100vw;
+    height: auto;
+}
